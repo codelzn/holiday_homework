@@ -53,6 +53,7 @@ class BaseClass {
     }
   }
 }
+
 // 課題１
 class HomeWork1 extends BaseClass {
   public baseDate: string[];
@@ -105,6 +106,7 @@ class HomeWork1 extends BaseClass {
     return yobi;
   }
 }
+// 課題１の初期化
 new HomeWork1(['2000-1-1', '土']);
 
 // 課題２
@@ -144,4 +146,6 @@ class HomeWork2 extends BaseClass {
       : (this.outputTag.innerHTML = '正しい年月日を入力してください');
   }
 }
+
+// 課題2の初期化
 new HomeWork2();
